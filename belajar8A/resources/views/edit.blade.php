@@ -33,7 +33,7 @@
     <!-- Form -->
     <div class="row justify-content-center">
             
-        <div class="col-6 p-5 bg-light rounded-3">
+        <div class="col-lg-6 p-5 bg-light rounded-3">
             @if (session('success'))
             <div class="alert alert-success">
                 <b>{{ session('success') }}</b>
@@ -57,7 +57,7 @@
                     <label for="umur">Umur</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <img src="{{ $data['foto'] }}" alt="">
+                    <img src="{{ $data['foto'] }}" alt="" width="200px">
                     <input type="hidden" value="{{ old('foto', $data['foto']) }}" name="foto_lama">
                 </div>
                 <div class="form-floating mb-3">

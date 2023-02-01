@@ -33,7 +33,7 @@
 <div class="container p-5">
     <!-- Form -->
     <div class="row justify-content-center">
-        <div class="col-6 p-5 bg-light rounded-3">
+        <div class="col-lg-6 p-5 bg-light rounded-3">
             @if (session('success'))
             <div class="alert alert-success">
                 <b>{{ session('success') }}</b>
