@@ -25,5 +25,14 @@ Table Columns:
 * Foto (Link)
 
 Images used in this project:<br>
-Lorem Picsum https://picsum.photos/200
+Lorem Picsum https://picsum.photos/200<br><br>
 
+Local Access:
+<ol>
+    <li>Activate XAMPP</li>
+    <li>Create MySQL Database : belajar8</li>
+    <li>Import belajar8.sql</li>
+    <li>Use CMD in the directory of belajar8, run this code: <i>php -S 127.0.0.1:8000 -t public/</i></li>
+    <li>Use another CMD in the directory of belajar8A, run this code: <i>php -S 127.0.0.1:1000 -t public/</i></li>
+    <li>Run via Browser: http://localhost:1000</li>
+</ol>
