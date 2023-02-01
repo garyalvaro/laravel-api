@@ -1,4 +1,5 @@
 ## Basic API SERVICE Project using Laravel
+&copy; 2023 - Gary Alvaro
 
 <b>Laravel 8</b> <br>
 <b>PHP 7</b> <br>
@@ -22,3 +23,7 @@ Table Columns:
 * Nama
 * Umur
 * Foto (Link)
+
+Images used in this project:<br>
+Lorem Picsum https://picsum.photos/200
+
