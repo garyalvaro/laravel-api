@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 31, 2023 at 05:53 PM
+-- Generation Time: Feb 02, 2023 at 03:02 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.3.27
 
@@ -89,12 +89,11 @@ CREATE TABLE `penggunas` (
 --
 
 INSERT INTO `penggunas` (`id`, `nama`, `umur`, `foto`) VALUES
-(1, 'Girlyyyyyyy', '20', 'https://picsum.photos/200'),
-(2, 'Macan', '28', 'http://localhost:1000/assets/uploads/20230131-150006.jpg'),
-(3, 'Embok Hijo', '55', 'http://localhost:1000/assets/uploads/20230131-145146.jpg'),
-(5, 'Wijongju', '23', 'http://localhost:1000/assets/uploads/20230131-145659.jpg'),
-(6, 'UcokBaba', '40', 'http://localhost:1000/assets/uploads/20230131-232119.jpg'),
-(7, 'Pepita', '15', 'http://localhost:1000/assets/uploads/20230131-234016.jpg');
+(1, 'Gary Alvaro', '22', 'https://picsum.photos/200'),
+(2, 'Macan', '15', 'http://localhost:1000/assets/uploads/20230131-150006.jpg'),
+(3, 'Suherman', '43', 'http://localhost:1000/assets/uploads/20230131-145146.jpg'),
+(8, 'Jubaedah Halimin', '52', 'http://localhost:1000/assets/uploads/20230201-113831.jpg'),
+(9, 'Salimin', '76', 'http://localhost:1000/assets/uploads/20230201-151623.jpg');
 
 -- --------------------------------------------------------
 
@@ -169,7 +168,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `penggunas`
 --
 ALTER TABLE `penggunas`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `users`
