@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 02, 2023 at 03:02 AM
+-- Generation Time: Feb 02, 2023 at 03:05 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.3.27
 
@@ -89,7 +89,7 @@ CREATE TABLE `penggunas` (
 --
 
 INSERT INTO `penggunas` (`id`, `nama`, `umur`, `foto`) VALUES
-(1, 'Gary Alvaro', '22', 'https://picsum.photos/200'),
+(1, 'Gary Alvaro', '22', 'http://localhost:1000/assets/uploads/20230202-090436.png'),
 (2, 'Macan', '15', 'http://localhost:1000/assets/uploads/20230131-150006.jpg'),
 (3, 'Suherman', '43', 'http://localhost:1000/assets/uploads/20230131-145146.jpg'),
 (8, 'Jubaedah Halimin', '52', 'http://localhost:1000/assets/uploads/20230201-113831.jpg'),
@@ -168,7 +168,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `penggunas`
 --
 ALTER TABLE `penggunas`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `users`
