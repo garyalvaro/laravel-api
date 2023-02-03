@@ -22,27 +22,13 @@ class PenggunaController extends Controller
         //     'data' => $pengguna
         // ]);
 
-        $pengguna = Pengguna::all();
+        // $pengguna = Pengguna::where('id', '>', '1')->select('nama', 'umur')->get();
+        // dd($pengguna->toArray());
+
+        $pengguna = Pengguna::get();
         return response()->json($pengguna);
     }
 
-    public function coba()
-    {
-        // $kalimat = 'HELLO WORLD';
-        // $link = 'http://localhost:8000/api/penggunas';
-        $response = Http::get('http://localhost:8000/api/penggunas');
-        // return Http::dd()->get('http://localhost:8000/api/penggunas');
-        dd($response->body());
-        // dd($kalimat);
-        // return view('index', compact(['pengguna']));
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         // $url = $request->foto;
